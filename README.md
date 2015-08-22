@@ -19,7 +19,7 @@ cd <git-prosjekt>/.helpers
 * Henter oppdateringer fra alle remote servere
 * Varsling dersom current branch ligger bak remote branch
 
-## check_updates.sh
+#### check_updates.sh
 Sjekker remote status for git-prosjekter
 * Prosjekter som skal sjekkes defineres i environment variabel PROJECTS
   Dette er kolon-sepraret streng med full sti til prosjektene
