@@ -1,0 +1,12 @@
+#!/bin/bash - 
+
+source .helpers/common.sh
+
+echo post-commit hook
+echo
+
+git remote update
+
+if branch_behind_remote; then
+    suggest
+fi
