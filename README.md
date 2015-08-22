@@ -26,7 +26,7 @@ Sjekker remote status for git-prosjekter
   Eks.: /home/jc/projects/projectA:/home/jc/projects/projectB
 * Kjører "git remote update" for hvert prosjekt og varsler om
   prosjektet ligger bak remote
-* Opsjon: -i
+* Opsjon: -i<br>
   Dersom et prosjekt trenger oppdatering, får man meny med valg om
   å vise logg og å kjøre rebase
 
